@@ -18,8 +18,8 @@ class shop extends Model{
             $text .= "<h5>$24.99</h5>";
             $text .= "<p class='card-text'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>";
             $text .= "</div>";
-            $text .= "<div class='card-footer'>";
-            $text .= "</div>";
+//            $text .= "<div class='card-footer'>";
+//            $text .= "</div>";
             $text .= "</div>";
             $text .= "</div>";
         }
