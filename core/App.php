@@ -2,6 +2,8 @@
 
 class App{
     
+    public static $link = "/classic4you";
+    
     protected $controller = 'DefaultController';
     protected $method = 'index';
     protected $params = 'DefaultController';
