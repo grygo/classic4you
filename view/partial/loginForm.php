@@ -2,9 +2,9 @@
 
 <div class="wrapper fadeInDown">
     <div id="formContent">
-        <form>
-            <input type="text" id="login" class="fadeIn second" name="login" placeholder="login">
-            <input type="text" id="password" class="fadeIn third" name="login" placeholder="password">
+        <form method="post" action="/classic4you/admin/login">
+            <input type="email" id="email" class="fadeIn second" name="email" placeholder="email" required>
+            <input type="password" id="password" class="fadeIn third" name="password" placeholder="password" required>
             <input type="submit" class="fadeIn fourth" value="Log In">
         </form>
     </div>

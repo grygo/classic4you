@@ -8,12 +8,24 @@ class DefaultController extends Controller{
         $this->partial('slider');
         
         
-//        $this->partial('shopPosition');
         $model = $this->model('shop');
-        $html = $model->genHTML();
+        
+        $resultArray = $model->getAllShopElement();
+        
+        $html = $model->genHTML($resultArray);
         echo $html;
         
         
+        $this->partial('footer');
+    }
+
+    public function elo(){
+
+        $this->partial('header');
+        $this->partial('navbar');
+        $this->partial('slider');
+        echo "elo";
+
         $this->partial('footer');
     }
 }

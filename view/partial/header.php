@@ -10,8 +10,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Classic4you</title>
         
-      <link href="css/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-      <link href="css/shop-homepage.css" rel="stylesheet">
+      <link href="/classic4you/css/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+      <link href="/classic4you/css/shop-homepage.css" rel="stylesheet">
         
     </head>
     <body>
+      <div class="mainContainer">

@@ -1,5 +1,11 @@
+html{
+    height: 100%;
+}
+
 body {
-  padding-top: 56px;
+    padding-top: 56px;
+    height: 100%;
+    position: relative;
 }
 
 a {
@@ -19,12 +25,16 @@ h2 {
   color: #cccccc;
 }
 
+.mainContainer{
+  min-height: 100%;
+  position: relative;
+}
+
 
 
 /* STRUCTURE */
 
 .wrapper {
-  margin-top: 100px;
   display: flex;
   align-items: center;
   flex-direction: column; 
@@ -57,6 +67,11 @@ h2 {
   border-radius: 0 0 10px 10px;
 }
 
+#footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
 
 
 /* TABS */
@@ -108,7 +123,7 @@ input[type=button]:active, input[type=submit]:active, input[type=reset]:active  
   transform: scale(0.95);
 }
 
-input[type=text] {
+input[type=text], input[type=password], input[type=email]{
   background-color: #f6f6f6;
   border: none;
   color: #0d0d0d;
@@ -252,4 +267,9 @@ input[type=text]:placeholder {
 
 #icon {
   width:60%;
+}
+
+
+#addNewElement{
+  margin-top: 20px;
 }
